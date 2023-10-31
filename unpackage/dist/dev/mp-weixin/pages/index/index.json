@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "雅酢直供",
+  "usingComponents": {
+    "jiu-item": "../../components/jiuItem/jiuItem"
+  }
+}

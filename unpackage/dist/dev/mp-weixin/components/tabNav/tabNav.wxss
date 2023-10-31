@@ -1,0 +1,141 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.tavNav.data-v-5f542320 {
+  overflow-x: hidden;
+}
+.tavNav .header.data-v-5f542320 {
+  width: 100%;
+  height: 100rpx;
+  box-sizing: border-box;
+  padding: 15rpx 8rpx;
+  position: relative;
+}
+.tavNav .header input.data-v-5f542320 {
+  padding-left: 75rpx;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 15rpx;
+  height: 70rpx;
+  width: 78%;
+  background-color: #e1e1e1;
+}
+.tavNav .header button.data-v-5f542320 {
+  display: inline-block;
+  width: 18%;
+  height: 100%;
+  text-align: center;
+  line-height: 70rpx;
+  background-color: #ebebeb;
+  margin-left: 20rpx;
+  border-radius: 15rpx;
+}
+.tavNav .header uni-text.data-v-5f542320 {
+  position: absolute;
+  left: 18rpx;
+  top: 20rpx;
+}
+.tavNav .arrSort.data-v-5f542320 {
+  width: 100%;
+  height: 100rpx;
+  box-sizing: border-box;
+}
+.tavNav .arrSort ul.data-v-5f542320 {
+  padding: 0;
+  width: 80%;
+  height: 70rpx;
+  margin: 15rpx auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tavNav .arrSort ul li.data-v-5f542320 {
+  list-style: none;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+.tavNav .arrSort ul li.data-v-5f542320:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tavNav .arrSort ul li:last-child .imgSort.data-v-5f542320 {
+  margin-left: 20rpx;
+  display: inline-block;
+  width: 25rpx;
+  height: 50rpx;
+  font-size: 0;
+}
+.tavNav .arrSort ul li:last-child .imgSort image.data-v-5f542320 {
+  width: 100%;
+  height: 50%;
+  display: block;
+}
+.tavNav .arrSort ul .active.data-v-5f542320 {
+  font-weight: bold;
+  color: red;
+}
+.tavNav .lists.data-v-5f542320 {
+  height: 100%;
+  background-color: #e1e1e1;
+  overflow-x: hidden;
+  margin-bottom: 50rpx;
+}
+.tavNav .lists ul.data-v-5f542320 {
+  margin-top: 10rpx;
+  width: 100%;
+  padding: 0;
+}
+.tavNav .lists ul li.data-v-5f542320 {
+  width: 100%;
+  height: 200rpx;
+  border: 1px solid gray;
+  list-style: none;
+  padding: 10rpx;
+  box-sizing: border-box;
+  background-color: white;
+  position: relative;
+}
+.tavNav .lists ul li image.data-v-5f542320 {
+  width: 180rpx;
+  height: 180rpx;
+  display: inline-block;
+  vertical-align: top;
+}
+.tavNav .lists ul li .li-Botm.data-v-5f542320 {
+  width: 70%;
+  height: 40rpx;
+  line-height: 40rpx;
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+}
+.tavNav .lists ul li .li-Botm text.data-v-5f542320:first-child {
+  color: orangered;
+  font-size: 18px;
+}
+.tavNav .lists ul li .li-Botm text.data-v-5f542320:last-child {
+  float: right;
+  margin-right: 15rpx;
+}
